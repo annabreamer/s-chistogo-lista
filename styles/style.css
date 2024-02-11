@@ -26,14 +26,18 @@ blockquote {
 
 .content-section_theme_dark {
   background-color: #131313;
+  color: #F5F5F5;
 }
 
 .content-section_theme_bright {
   background-color: #fee42a;
+  color: #131313;
 }
 
 .header {
   padding: 24px 20px;
+  display: flex;
+  justify-content:space-between;
 }
 
 .cover {
@@ -56,3 +60,23 @@ blockquote {
 .footer {
   padding: 20px;
 }
+
+.header__logo-image{
+  width:78.45px
+}
+
+.header__menu-link{
+  color: #F5F5F5;
+}
+
+.header__menu-item_active .header__menu-link{
+  text-decoration:none;
+}
+
+.header__menu-list{
+  list-style-type:none;
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
