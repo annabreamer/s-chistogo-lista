@@ -43,12 +43,15 @@ blockquote {
 }
 
 .cover {
-  padding-top: 7px;
-  padding-left: 20px;
+  padding: 7px 24px 30px 20px;
+  background-image: url(../images/cover.svg);
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .intro {
-  padding: 30px 20px 38px 20px;
+  padding: 0px 20px 38px 20px;
 }
 
 .reasons {
@@ -87,4 +90,24 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.cover__title {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
