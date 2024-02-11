@@ -18,6 +18,7 @@ blockquote {
   margin: 0;
   padding: 0;
 }
+
 .content-section {
   width: 360px;
   margin: auto;
@@ -64,6 +65,11 @@ blockquote {
 
 .header__logo-image {
   width: 79px;
+}
+
+.header__menu-item {
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .header__menu-link {
