@@ -43,7 +43,7 @@ blockquote {
 }
 
 .cover {
-  padding: 7px 24px 30px 20px;
+  padding: 7px 24px 35px 20px;
   background-image: url(../images/cover.svg);
   background-size: 95% auto;
   background-repeat: no-repeat;
@@ -110,4 +110,60 @@ blockquote {
 
 .text-right {
   text-align: right;
+}
+
+.intro__heading{
+  display:flex;
+  align-items: space-between;
+  margin-bottom: 24px;
+}
+
+.intro__title {
+  font-size: 16px;
+  color: #CCCCCC;
+  line-height: 19.2px;
+  font-weight: 400;
+}
+
+.intro__date {
+  white-space: nowrap;
+  font-size: 16px;
+  color: #CCCCCC;
+  line-height: 19.2px;
+}
+
+.intro__main-text {
+  font-size: 16px;
+  color: #F5F5F5;
+  line-height: 21.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32.2px;
+  margin-bottom: 32px;
+}
+
+.content-section__introduction {
+  font-size:20px;
+  line-height: 27px;
+  margin-bottom: 32px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  font-size: 16px;
+  line-height: 21.6px;
+  padding-left: 16px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
